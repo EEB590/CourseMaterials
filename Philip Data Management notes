@@ -1,0 +1,64 @@
+Philip's notes on DasGupta webinar, 14 Sept 2015:
+
+webfeet is Dasgupta's gitbub name.  presentation source will go on github
+  
+His template for folders
+  lib: background stuff
+    R: custom functions, one per file
+    src: C C++ code
+    tests: code to test functions
+    packages.R: list of necessary libraries
+    reload.R: what is necessary to reload all data sets
+    scripts: custom scripts for Python file manipulation and graphing
+  toplevel stuff:
+    DataAcquisition.r: producing data sets
+    DataMunging.r: cleaning data
+    Figures.r: All graphs
+    Modeling.r: all model fitting
+    Report.Rmd: R Markdown to produce report
+    
+His philosophy:
+  "Do the common things once" (and only once)
+  So put one function definition (or very closely related functions) per file
+    Copy the file to new project when you need that function again
+    
+Documentation   
+  write comments to help you search for code you need 
+  
+Software carpentry: Greg Willson (sp?)
+  disciplined approach/philosophy for code management
+
+Jeff Leek's datasharing advice on GitHub: written for his students
+
+Hadley's tidy data paper in J Statistical Software
+  tidyverse: collection of packages for tidy data
+  grope: Robinson package to convert results into tidy data sets
+  
+Coding style suggestions: 
+  Google has internal R and Python document
+  Hadley has R document
+  both on the web
+  
+Testbadge? in R: package for unit testing of functions
+
+Rashomon effect: each model tells you something different, truth is the overall gestalt
+  (PMD: sounds like informal model averaging)
+  
+broom and estout: R packages to write results to excel tables
+
+Jupyter notebooks: now include R. "can do some pretty amazing things with it"
+
+Frank Harrell has Sweave package for clinical trial reporting
+
+Keynote makes html presentations
+  
+ReporteRs translating a table into a Word table
+
+Karen Healy (blog) how to use literate programming to collaborate with others
+
+
+
+  
+
+
+  
